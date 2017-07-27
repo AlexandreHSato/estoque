@@ -17,6 +17,8 @@
 			 	<td><?=$p->descricao?></td>
 			 	<td><?=$p->quantidade?></td>
 			 	<td><a href="/produtos/mostra"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></td>
+			 	<td><a href="/produtos/mostra"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a></td>
+			 	
 			 </tr>
 		<?php 
 			endforeach
