@@ -36,3 +36,8 @@ Route::get("/home",function()
 Route::get("/produtos","ProdutoController@lista");
 //Route::get("/produtos/mostra/{id}","ProdutoController@mostra");
 Route::get("/produtos/mostra/","ProdutoController@mostra");
+
+Route::get('laravel-version', function() {
+    $laravel = app();
+    return "Your Laravel version is ".$laravel::VERSION;
+});
